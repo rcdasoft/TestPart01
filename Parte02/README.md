@@ -1,7 +1,7 @@
 # Test Parte 02
 
  Desarrollado con Slim framework3
-#URL del prototipo
+# URL del prototipo
 
 ## public/                
 [GET] Pantalla inicial
