@@ -1,0 +1,16 @@
+<table>
+    <tr><td><b>name</b> </td><td><?php echo $data['name'] ?></td></tr>
+    <tr><td><b>email</b></td><td><?php echo $data['email'] ?></td></tr>
+    <tr><td><b>phone</b></td><td><?php echo $data['phone'] ?></td></tr>
+    <tr><td><b>address</b></td><td><?php echo $data['address'] ?></td></tr>
+    <tr><td><b>position</b></td><td><?php echo $data['position'] ?></td></tr>
+    <tr><td><b>salary</b></td><td><?php echo $data['salary'] ?></td></tr>
+    <tr><td><b>skills</b></td><td></td></tr>
+    <tr><td></td><td>
+            <ul>
+                <?php foreach ($data['skills'] as $value) { ?>
+                    <li><?php echo $value['skill'] ?></li>
+                <?php } ?>
+            </ul>
+        </td></tr>
+</table>

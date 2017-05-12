@@ -1,0 +1,13 @@
+body {
+    padding: 0;
+    width: 100%;
+    font-family: courier,  Arial, sans-serif;
+    font-size: 12px;
+}
+#divmain {padding: 10px}
+#divresult {margin-top: 10px; width: 50%;float: left}
+#divresult table {border: double #ccccff}
+#divdetail {margin-top: 10px; width: 50%; float: left}
+#divdetail table {border: double #ccccff}
+
+

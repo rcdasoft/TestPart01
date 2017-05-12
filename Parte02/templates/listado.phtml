@@ -1,0 +1,30 @@
+<?php if(count($data)!=0) {?>
+<table>
+    <tr>
+        <th>name</th>
+        <th>email</th>
+        <th>position</th>
+        <th>salary</th>
+        <th></th>
+    </tr>
+
+    <?php foreach ($data as $value) { ?>
+        <tr>
+            <td>    <?php echo $value['name']; ?></td>
+            <td>    <?php echo $value['email']; ?></td>
+            <td>    <?php echo $value['position']; ?></td>
+            <td>    <?php echo $value['salary']; ?></td>
+            <td><input type="button" class="btnview" codid="<?php echo $value['id']; ?>" value="view"/></td>
+        </tr>
+    <?php } ?>
+</table>
+<?php } else { ?>
+
+<table>
+    <tr>
+        <th>No existe datos para el criterio de búsqueda</th>
+    </tr>
+
+</table>
+
+<?php }  ?>
